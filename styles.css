@@ -1,0 +1,21 @@
+*{
+    font-family:'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+    text-align:center;
+    box-sizing:border-box;
+     margin:0;
+    padding:0;
+    text-align: center;
+}
+html{
+ font-size: 32px;
+}
+.con{
+ display:flex;
+ flex-direction: row;
+ text-align: cent
+}
+h1{
+    font-size: 40px;
+}
