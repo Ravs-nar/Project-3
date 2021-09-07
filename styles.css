@@ -1,11 +1,9 @@
 *{
     font-family:'Roboto', sans-serif;
     color: #222;
-    text-align:center;
     box-sizing:border-box;
      margin:0;
     padding:0;
-    text-align: center;
 }
 
 h1 {
@@ -22,6 +20,9 @@ h1 {
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 20px;
+}
+.con{
+    text-align: center;
 }
 .new{
     color:grey;
@@ -45,19 +46,25 @@ form {
     border-radius: 8px;
   }
   label{
-      display: block;
       margin-bottom: 8px;
       color:grey;
       font-family:'Times New Roman', Times, serif;
       text-align: left;
   }
   input{
-      color:honeydew;
+      background-color: lightgray;
       margin-bottom: 20px;
       border:none;
   }
+  .top{
+      height: 29px;
+  }
   fieldset{
       border:none;
+  }
+  .first{
+      display: flex;
+      flex-direction: column;
   }
   button {
     padding: 19px 39px 18px 39px;
@@ -71,5 +78,19 @@ form {
     border: 1px solid aqua;
     border-width: 1px 1px 3px;
     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-    margin-bottom: 10px;
+  }
+  .news {
+      font-weight:bold;
+      text-align: left;
+      font-size: large;
+      margin-bottom: 10px;
+  }
+  .nw{
+      text-align: left;
+      color:grey;
+      margin-bottom: 10px;
+  }
+  .foot{
+      color: grey;
+      text-align: center;
   }

@@ -21,45 +21,48 @@
             <legend class ="contact">Contact Information</legend>
 
             <label for="name">Full Name:</label>
-            <input type="text" id="name" name="user-name" required>
+            <input class="top" type="text" id="name" name="user-name" placeholder="Required">
 
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="user-email">
+            <input class="top" type="email" id="email" name="user-email" placeholder="Required">
 
             <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="user-phone-number">
+            <input class="top" type="tel" id="phone" name="user-phone-number">
 
             <label for="Address">Street Address</label>
-            <input type="text" id="Address" name="user-address">
+            <input class="top" type="text" id="Address" name="user-address">
 
             <label for="city">City</label>
-            <input type="text" id="city" name="user-city">
+            <input class="top" type="text" id="city" name="user-city">
 
             <label for="state">State</label>
-            <input type="text" id="state" namer="user-state">
+            <input class="top" type="text" id="state" namer="user-state" placeholder="Choose A State">
             <label for="zip">Zip Code</label>
-            <input type="number" id="zip" name="user-zip">
+            <input class="top" type="number" id="zip" name="user-zip">
         </fieldset>    
 
         <fieldset>
             <legend class="news">Newsletter</legend>
                 <input type="checkbox" id="HTML" name="user-interest">
-                <label class="HT" for="HTML">HTML News</label>
+                <label class="HT" for="HTML">HTML News</label> <br>
                 <input type="checkbox" id="CSS" name="user-interest">
-                <label class="CS" for="CSS">CSS News</label>
+                <label class="CS" for="CSS">CSS News</label><br>
                 <input type="checkbox" id="JAVASCRIPT" name="user-interest">
                 <label class="JAVA" for="JAVASCRIPT">Javascript News</label>
         </fieldset>
         <fieldset>
-            <legend>Newsletter format</legend>
+            <legend class="nw">Newsletter format</legend>
             <input type="radio" id="htform" name="user-format">
-            <label for="htform">HTML</label>
+            <label for="htform">HTML</label><br>
             <input type="radio" id="plain" name="user-format">
-            <label for="plain">Plain text</label>
+            <label for="plain">Plain text</label><br>
             <label for="questions">Other topics you'd like to hear about.</label>
             <input type="text" id="questions" name="user-questions">
         </fieldset>
             <button type="sign">Sign Up</button>
         </form>
+        <footer>
+            <p class="foot">Copywrite The Code Review</p>
+        </footer>
  </body>
 </html>
