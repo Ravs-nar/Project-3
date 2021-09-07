@@ -5,23 +5,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Code Review</title>
-        <link rel="stylessheet" href="C:\Users\ravin\Desktop\Project 3\styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylessheet">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
     </head>
     <body>
         <div class="con">
              <h1>THE CODE REVIEW</h1>
-                <p>Signup for our newsletter</p>
-                <p>Get the latest news on how your code is doing right in your inbox</p>
+                <p class="pop">Signup for our newsletter</p>
+                <p class="new">Get the latest news on how your code is doing right in your inbox</p>
         </div>
         <form action="index.html" method="post">
 
             
-        <fieldset>
+        <fieldset class="first">
             <legend class ="contact">Contact Information</legend>
 
             <label for="name">Full Name:</label>
-            <input type="text" id="name" name="user-name">
+            <input type="text" id="name" name="user-name" required>
 
             <label for="email">Email Address</label>
             <input type="email" id="email" name="user-email">
@@ -29,12 +29,14 @@
             <label for="phone">Phone Number</label>
             <input type="tel" id="phone" name="user-phone-number">
 
-            <label for="Address">Address</label>
+            <label for="Address">Street Address</label>
             <input type="text" id="Address" name="user-address">
 
             <label for="city">City</label>
             <input type="text" id="city" name="user-city">
 
+            <label for="state">State</label>
+            <input type="text" id="state" namer="user-state">
             <label for="zip">Zip Code</label>
             <input type="number" id="zip" name="user-zip">
         </fieldset>    
@@ -43,13 +45,13 @@
             <legend class="news">Newsletter</legend>
                 <input type="checkbox" id="HTML" name="user-interest">
                 <label class="HT" for="HTML">HTML News</label>
-                <input type="checkbx" id="CSS" name="user-interest">
+                <input type="checkbox" id="CSS" name="user-interest">
                 <label class="CS" for="CSS">CSS News</label>
                 <input type="checkbox" id="JAVASCRIPT" name="user-interest">
                 <label class="JAVA" for="JAVASCRIPT">Javascript News</label>
         </fieldset>
         <fieldset>
-            <label>Newsletter format</label>
+            <legend>Newsletter format</legend>
             <input type="radio" id="htform" name="user-format">
             <label for="htform">HTML</label>
             <input type="radio" id="plain" name="user-format">

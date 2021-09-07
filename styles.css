@@ -1,21 +1,75 @@
 *{
     font-family:'Roboto', sans-serif;
     color: #222;
-    background: #f7f5f0;
     text-align:center;
     box-sizing:border-box;
      margin:0;
     padding:0;
     text-align: center;
 }
-html{
- font-size: 32px;
+
+h1 {
+    color:#f7f5f0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkslategray;
+    background-size: 30px;
+    margin-bottom:20px;
+    padding-bottom:40px;
+    padding-top: 40px;
 }
-.con{
- display:flex;
- flex-direction: row;
- text-align: cent
+.pop{
+    font-weight:bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
 }
-h1{
-    font-size: 40px;
+.new{
+    color:grey;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 10px double black;
 }
+
+.contact{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  label{
+      display: block;
+      margin-bottom: 8px;
+      color:grey;
+      font-family:'Times New Roman', Times, serif;
+      text-align: left;
+  }
+  input{
+      color:honeydew;
+      margin-bottom: 20px;
+      border:none;
+  }
+  fieldset{
+      border:none;
+  }
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color:aqua;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid aqua;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
