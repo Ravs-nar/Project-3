@@ -52,7 +52,7 @@ form {
       text-align: left;
   }
   input{
-      background-color: lightgray;
+      background-color: lightgoldenrodyellow;
       margin-bottom: 20px;
       border:none;
   }
@@ -93,4 +93,19 @@ form {
   .foot{
       color: grey;
       text-align: center;
+      font-size: small;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+
+ 
+  .top::placeholder{
+      text-align: right;
+      font-family:'Times New Roman', Times, serif;
+  }
+  .top-1{
+    text-align: left;
+    height:29px;
+}
+.final{
+    height: 62px;
+}
