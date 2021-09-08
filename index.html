@@ -36,35 +36,31 @@
                     <input class="top" type="text" id="city" name="user-city">
 
                     <label for="state">State</label>
-                    <select id="state" name="user-state">
-                     <option value="select">Select a State</option>
-                     <option value="Oregon">Oregon</option>
-                    </select>
+                    <input class="top-1" type="text" id="state" namer="user-state" placeholder="Choose A State">
                     <label for="zip">Zip Code</label>
                     <input class="top" type="number" id="zip" name="user-zip">
                 </fieldset>    
 
                 <fieldset>
-                        <legend class="news">Newsletter</legend>
-                        <p class="open">Select the newsletters you would like to receive</p>
-                            <input type="checkbox" id="HTML" name="user-interest">
-                            <label class="HT" for="HTML">HTML News</label> <br>
-                            <input type="checkbox" id="CSS" name="user-interest">
-                            <label class="CS" for="CSS">CSS News</label><br>
-                            <input type="checkbox" id="JAVASCRIPT" name="user-interest">
-                            <label class="JAVA" for="JAVASCRIPT">Javascript News</label>
-                            
-                        <h2 class="nw">Newsletter format</h2>
-                        <input type="radio" id="htform" name="user-format">
-                        <label for="htform">HTML</label><br>
-                        <input type="radio" id="plain" name="user-format">
-                        <label for="plain">Plain text</label><br>
-                    
-                        <label for="questions">Other topics you'd like to hear about.</label>
-                        <textarea id="questions" name="user-questions"></textarea>
-                
-                    <button type="submit">Sign Up</button>
+                    <legend class="news">Newsletter</legend>
+                        <input type="checkbox" id="HTML" name="user-interest">
+                        <label class="HT" for="HTML">HTML News</label> <br>
+                        <input type="checkbox" id="CSS" name="user-interest">
+                        <label class="CS" for="CSS">CSS News</label><br>
+                        <input type="checkbox" id="JAVASCRIPT" name="user-interest">
+                        <label class="JAVA" for="JAVASCRIPT">Javascript News</label>
                 </fieldset>
+                <fieldset>
+                    <legend class="nw">Newsletter format</legend>
+                    <input type="radio" id="htform" name="user-format">
+                    <label for="htform">HTML</label><br>
+                    <input type="radio" id="plain" name="user-format">
+                    <label for="plain">Plain text</label><br>
+                   
+                    <label for="questions">Other topics you'd like to hear about.</label>
+                    <input class="final" type="text" id="questions" name="user-questions">
+                </fieldset>
+                    <button type="sign">Sign Up</button>
         </form>
             <footer>
                 <p class="foot">Copywrite The Code Review</p>

@@ -45,9 +45,6 @@ form {
     padding: 10px 20px;
     border-radius: 8px;
   }
-  #zip{
-      max-width: 150px;
-  }
   label{
       margin-bottom: 8px;
       color:grey;
@@ -55,7 +52,7 @@ form {
       text-align: left;
   }
   input{
-      background-color: rgb(202, 222, 241);
+      background-color: lightgoldenrodyellow;
       margin-bottom: 20px;
       border:none;
   }
@@ -94,7 +91,6 @@ form {
       text-align: left;
       color:grey;
       margin-bottom: 10px;
-      font-size: large;
   }
   .foot{
       color: grey;
@@ -112,27 +108,10 @@ form {
     text-align: left;
     height:29px;
 }
-
-textarea{
-    background-color: rgb(202, 222, 241);
-    border:none;
-    width: 86%;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding-bottom: 60px;
-}
-textarea:focus-within .questions{
-    color: black;
-}
-select{
-    background-color: rgb(202, 222, 241);
-    margin-bottom: 20px;
-    border:none;
-    height: 29px;
-}
-.open{
-    font-weight: bold;
-    margin-bottom: 20px;
+.final{
+    height: 62px;
+    display: block;
+    width:fit-content;
 }
 @media screen and (min-width: 768px){
 
