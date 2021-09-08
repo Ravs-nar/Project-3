@@ -46,7 +46,7 @@ form {
     border-radius: 8px;
   }
   #zip{
-      max-width: 150px;
+      width: 50%;
   }
   label{
       margin-bottom: 8px;
@@ -138,5 +138,9 @@ select{
 
 form{
     max-width:768px ;
+
+}
+#zip{
+    width: 25%;
 }
 }
